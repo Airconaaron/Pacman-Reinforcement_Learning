@@ -4,13 +4,21 @@ This repo is an attempt at the Ms. Pacman Arcade game using reinforcment learnin
 
 
 # Installation
+First install this repository onto your machine. Navigate into the folder. 
+`git clone https://github.com/Airconaaron/Pacman-Reinforcement_Learning`
+Next install the Open AI Gym environment here. 
 
-First install the Open AI Gym environment here. 
-
-` git clone SOMETHING STUFF`
+` git clone https://github.com/openai/gym`
 ` pip install -e .`
 ` pip install gym[Atari]`
 
-# Running
+Creating a Conda Environemnt (on Mac):
+`conda env create -f environment.yml`
 
-Simply run the file as a jupyter notebook to see everything in action.  
+
+# Run Time
+`source activate reinforcement-gym`
+Simply run `jupyter notebook` to see the files.
+
+# Closing
+To exit Jupyter Notebook simply type ctrl-c twice. Exit the cona environment by typing `source deactivate`.

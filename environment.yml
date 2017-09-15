@@ -1,0 +1,5 @@
+name: reinforcement-gym
+channels:
+- defaults
+prefix: /anaconda/envs/reinforcement-gym
+
